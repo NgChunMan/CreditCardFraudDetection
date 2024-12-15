@@ -34,7 +34,7 @@ python main.py
 ```
 
 ## Testing
-Unit tests are provided to validate the implementation of the gradient descent algorithm and other utilities. Run the tests using pytest:
+Unit tests are provided to validate the implementation. Run the tests using pytest:
 ```
 pytest tests/
 ```
