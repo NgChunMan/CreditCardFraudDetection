@@ -1,7 +1,11 @@
+import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from src.logistic_regression_stochastic_gradient_descent import logistic_regression_stochastic_gradient_descent
 from src.model import logistic_regression_classification
+
+# Set print options to display all classifications
+np.set_printoptions(threshold=np.inf)
 
 # Load dataset
 data_path = "data/credit_card.csv"
