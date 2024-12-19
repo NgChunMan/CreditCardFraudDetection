@@ -7,8 +7,6 @@ This project implements a machine learning solution to detect fraudulent transac
 ## Features
 - Logistic Regression Implementation:
 Logistic regression is implemented from scratch, providing a deeper understanding of its underlying mechanics and flexibility for modifications.
-- Gradient Descent Optimization:
-Both batch gradient descent and stochastic gradient descent (SGD) are employed to train the model efficiently, even with large datasets.
 - Cost Function and Weight Updates:
 Includes a custom implementation of cross-entropy loss for evaluating model performance and weight update logic to optimize predictions.
 - Fraud Detection:
@@ -45,4 +43,4 @@ pytest tests/
 Example Output:
 `Predictions: [0 1 0 ... 1 0 1]`
 
-It outputs an array of predictions for all transactions in the dataset.
+It outputs an array of predictions for all transactions in the dataset. Legitimate transactions are classified as (0) and fraudulent transactions are classified as (1).
